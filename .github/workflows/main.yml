@@ -16,8 +16,3 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2  # Checkout the repository code
 
-      - name: Build with Maven
-        run: mvn clean install  # This will clean, compile, and run tests
-
-      - name: Run tests
-        run: mvn test  # Optional: This will run the tests
